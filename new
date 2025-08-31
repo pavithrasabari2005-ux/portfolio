@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Online Food Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f7f7f7;
+    }
+    header {
+      background-color: #ff6347;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 10px 0;
+    }
+    .product p {
+      margin: 0 0 10px;
+      color: green;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Delish Online Food Store</h1>
+    <p>Fresh and Tasty Food Delivered to You!</p>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?pizza" alt="Pizza">
+      <h3>Cheese Pizza</h3>
+      <p>$9.99</p>
+    </div>
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?burger" alt="Burger">
+      <h3>Beef Burger</h3>
+      <p>$7.99</p>
+    </div>
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?sushi" alt="Sushi">
+      <h3>Salmon Sushi</h3>
+      <p>$12.99</p>
+    </div>
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?pasta" alt="Pasta">
+      <h3>Italian Pasta</h3>
+      <p>$8.50</p>
+    </div>
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?salad" alt="Salad">
+      <h3>Healthy Salad</h3>
+      <p>$6.75</p>
+    </div>
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?steak" alt="Steak">
+      <h3>Grilled Steak</h3>
+      <p>$14.99</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Delish Food Store. All rights reserved.
+  </footer>
+
+</body>
+</html>
